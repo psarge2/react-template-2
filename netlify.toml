@@ -1,5 +1,5 @@
 [build]
-  command = "yarn build"
+  command = "CI= yarn build"
   publish="path-to-react-app/build"
   base = "path-to-react-app"
 
