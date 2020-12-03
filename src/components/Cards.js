@@ -14,7 +14,13 @@ function Cards() {
               text="Explore the hidden waterfall deep inside the Amazon Jungle"
               label='Adventure'
               path='/services'
-              />  
+              />
+              <CardsItem 
+              src="images/img-2.jpg"
+              text="Explore the hidden waterfall deep inside the Amazon Jungle"
+              label='Adventure'
+              path='/services'
+              />   
             </ul>
           </div>
         </div>
