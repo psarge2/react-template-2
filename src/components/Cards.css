@@ -116,3 +116,16 @@ h1 {
 		margin-bottom: 2rem;
 	}
 }
+
+.text__card {
+	display: flex;
+	flex: 1;
+	margin: 0 1rem;
+	border-radius: 10px;
+}
+
+.services__text {
+	color: #252e48;
+	font-size: 18px;
+	line-height: 24px;
+}

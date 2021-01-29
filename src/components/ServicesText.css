@@ -1,4 +1,4 @@
-.cards {
+.copy {
 	padding: 4rem;
 	background: #fff;
 }
@@ -8,8 +8,8 @@ h1 {
 }
 
 .text__container {
-	display: flex;
-	flex-flow: column;
+	/* display: flex;
+	flex-flow: column; */
 	align-items: center;
 	max-width: 1120px;
 	width: 90%;
@@ -21,15 +21,52 @@ h1 {
 	margin: 50px 0 45px;
 }
 
+.text__row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
 .text__card {
 	display: flex;
-	flex: 1;
-	margin: 0 1rem;
-	border-radius: 10px;
+	flex-direction: column;
+	flex-basis: 100%;
+	margin-bottom: 2rem;
+}
+
+.services__lg__text {
+	color: #252e48;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
 }
 
 .services__text {
 	color: #252e48;
-	font-size: 18px;
-	line-height: 24px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
 }
+
+@media screen and (min-width: 960px) {
+	.text__card {
+		flex: 1;
+	}
+}
+
+/* @media screen and (min-width: 768px) {
+	.services__lg__text {
+		color: #252e48;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.services__text {
+		color: #252e48;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+	}
+} */
