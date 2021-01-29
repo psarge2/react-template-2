@@ -5,7 +5,7 @@ import Footer from '../Footer'
 export default function Destinations () {
     return (
     <>
-      <h1 className='products'>Destinations</h1>
+      <h1 className='destinations'>Destinations</h1>
       <CardsProduct />
       <Footer />
     </>

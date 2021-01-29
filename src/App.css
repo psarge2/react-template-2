@@ -7,7 +7,7 @@
 
 .home,
 .services,
-.products,
+.destinations,
 .sign-up {
 	display: flex;
 	height: 90vh;
@@ -17,7 +17,8 @@
 }
 
 .services {
-	background-image: url('./images/img-2.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url('./images/img-18.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -25,8 +26,8 @@
 	font-size: 100px;
 }
 
-.products {
-	background-image: url('./images/img-1.jpg');
+.destinations {
+	background-image: url('./images/img-17.jpg');
 	background-position: center;
 	background-size: fill;
 	background-repeat: no-repeat;

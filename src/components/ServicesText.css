@@ -1,0 +1,35 @@
+.cards {
+	padding: 4rem;
+	background: #fff;
+}
+
+h1 {
+	text-align: center;
+}
+
+.text__container {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	max-width: 1120px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.text__wrapper {
+	position: relative;
+	margin: 50px 0 45px;
+}
+
+.text__card {
+	display: flex;
+	flex: 1;
+	margin: 0 1rem;
+	border-radius: 10px;
+}
+
+.services__text {
+	color: #252e48;
+	font-size: 18px;
+	line-height: 24px;
+}
