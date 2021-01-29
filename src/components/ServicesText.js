@@ -13,20 +13,24 @@ function ServicesText () {
           </p>
         </div>
       </div>
+      <h1>The TRVL X Technique</h1>
       <div className='text__container'>
         <div className='text__wrapper'>
-          <div className='text__row'>
+          <div className='text__row shadow'>
             <div className='text__card'>
+              <h2>Connect</h2>
               <p className='services__text'>
                 We’ll first get to know you—and uncover all the details about your dream vacation—on your complimentary consultation call. This will allow us to customize your proposal to your exact desires (and add in extra special touches tailored to your travel style!).
               </p>
             </div>
             <div className='text__card'>
+              <h2>Create</h2>
               <p className='services__text'>
                 We’ll prepare and present your customized proposal, and we’ll also gather feedback so we can make any tweaks necessary to ensure it’s a perfect fit for you. Once we finalize your itinerary, you’ll make your trip deposit—and then we’ll take it from there. 
               </p>
             </div>
             <div className='text__card'>
+              <h2>Curate</h2>
               <p className='services__text'>
               Leave all of the bookings for your vacation to us, including your flights, hotel, transfers, and private tours. We’re here to create a seamless trip experience from beginning to end, so you can expect every leg of your journey to fit together perfectly. 
               </p>
