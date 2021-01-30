@@ -1,10 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ConnectForm.css';
 
+
 function ConnectForm() {
+
+  const [client, setClient] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    address: '',
+    city: '',
+    state: '',
+    zipcode: '',
+    referral: ''
+  });
+
+  const onChangeClient = (e) => {
+    setClient({...client, [e.target.name] : e.target.value});
+  }
+
+  const handleReset = () => {
+    setClient({
+      name: '',
+      email: '',
+      phone: '',
+      address: '',
+      city: '',
+      state: '',
+      zipcode: '',
+      referral: ''
+    });
+  }
+
   const handleSubmit = event => {
    event.preventDefault();
-   alert('You have submitted the form.')
+   alert('You have submitted the form.');
+   handleReset('');
  }
 
   return(
@@ -15,29 +46,29 @@ function ConnectForm() {
           <form className='submit__form shadow' onSubmit={handleSubmit}>
             <div>
               <label for="name">Name</label>
-              <input type="text" name="name" id="name" value="" placeholder="Janice Doe" required />
+              <input type="text" name="name" id="name" value={client.name} onChange={onChangeClient} placeholder="Janice Doe" required />
             </div>
             <div>
               <label for="email">Email</label>
-              <input type="email" name="email" id="email" value="" placeholder="janice@email.com" required />
+              <input type="email" name="email" id="email" value={client.email} onChange={onChangeClient}  placeholder="janice@email.com" required />
             </div>
             <div>
               <label for="phone">Phone Number</label>
-              <input type="number" name="phone" id="phone" value="" placeholder="999.999.9999" required/>
+              <input type="number" name="phone" id="phone" value={client.phone} onChange={onChangeClient}  placeholder="999.999.9999" required/>
             </div>
             <div>
               <label for="address">Address</label>
-              <input type="text" name="address" id="address" value="" placeholder="1234 Main St." />
+              <input type="text" name="address" id="address" value={client.address} onChange={onChangeClient} placeholder="1234 Main St." />
               <label for="city">City</label>
-              <input type="text" name="city" id="city" value="" placeholder="Anywhere" />
+              <input type="text" name="city" id="city" value={client.city} onChange={onChangeClient} placeholder="Anywhere" />
               <label for="state">State</label>
-              <input type="text" name="state" id="state" value="" placeholder="Ohio" />
+              <input type="text" name="state" id="state" value={client.state} onChange={onChangeClient} placeholder="Ohio" />
               <label for="zipcode">ZipCode</label>
-              <input type="number" name="zipcode" id="zip" value="" placeholder="12345" />
+              <input type="number" name="zipcode" id="zip" value={client.zipcode} onChange={onChangeClient} placeholder="12345" />
             </div>
             <div>
               <label for="referral">How Did you hear about us?</label>
-              <input type="text" name="referral" id="referral" value="" placeholder="" />
+              <input type="text" name="referral" id="referral" value={client.referral} onChange={onChangeClient} placeholder="" />
             </div>
             <div class="field">
               <label for="tripReaseon">Is this trip a special occaision?</label>
@@ -67,7 +98,7 @@ function ConnectForm() {
               </div>
             <div>
               <label for="date">Date you are planning to begin</label>
-              <input type="date" name="date-start" id="date" value="" placeholder="" />
+              <input type="date" name="date-start" id="date" value={client.date} placeholder="" />
             </div>
             <div class="field">
               <label for="experienceBudget">
