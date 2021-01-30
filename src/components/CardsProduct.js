@@ -13,7 +13,7 @@ function CardsProduct() {
               src="images/img-10.jpg"
               text="Feed the giraffes in a local village on a Safari Tour"
               label='Africa'
-              path='/services'
+              path='/sign-up'
               />
               <CardsItem 
               src="images/img-11.jpg"
@@ -25,7 +25,7 @@ function CardsProduct() {
               src="images/img-12.jpg"
               text="Experience the castles of old on a visit to Scottish Island, Skye"
               label='Europe'
-              path='/services'
+              path='/sign-up'
               />   
             </ul>
             <ul className="cards__items">
@@ -39,7 +39,7 @@ function CardsProduct() {
               src="images/img-14.jpg"
               text="Get Blown Away by the View on Your Canoe Tour of Moraine Lake, Canada"
               label='North America'
-              path='/products'
+              path='/sign-up'
               />
               <CardsItem 
               src="images/img-15.jpg"
