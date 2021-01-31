@@ -48,7 +48,8 @@
 @media screen and (max-width: 960px) {
 	.services,
 	.destinations,
-	.signup h1 {
+	.signup,
+	.homebase h1 {
 		font-size: 70px;
 		margin-top: -150px;
 	}
@@ -57,7 +58,8 @@
 @media screen and (max-width: 768px) {
 	.services,
 	.destinations,
-	.signup h1 {
+	.signup,
+	.homebase h1 {
 		font-size: 50px;
 		margin-top: -100px;
 	}
