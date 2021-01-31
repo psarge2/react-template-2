@@ -9,11 +9,11 @@ function ServicesText () {
       <div className='text__container'>
         <div className='text__wrapper'>
           <p className='services__lg__text'>
-          At Travel X, we collaborate with our exclusive travel partners and trusted local guides to design journeys that plunge you deep into a world of wonder, wherever you go—without sacrificing an ounce of comfort along the way. Welcome to luxury travel redefined where enchanting refinements and thrilling discoveries merge into a singular trip of a lifetime! 
+          At Getaway, we collaborate with our exclusive travel partners and trusted local guides to design journeys that plunge you deep into a world of wonder, wherever you go—without sacrificing an ounce of comfort along the way. Welcome to luxury travel redefined where enchanting refinements and thrilling discoveries merge into a singular trip of a lifetime! 
           </p>
         </div>
       </div>
-      <h1>The TRVL X Technique</h1>
+      <h1>The Getaway Technique</h1>
       <div className='text__container'>
         <div className='text__wrapper'>
           <div className='text__row shadow'>
