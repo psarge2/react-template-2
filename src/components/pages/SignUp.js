@@ -1,6 +1,6 @@
 import '../../App.css';
-import ConnectForm from '../ConnectForm'
-import Footer from '../Footer'
+import ConnectForm from '../ConnectForm/ConnectForm'
+import Footer from '../Footer/Footer'
 
 
 export default function SignUp() {

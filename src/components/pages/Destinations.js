@@ -1,6 +1,6 @@
 import '../../App.css';
-import CardsProduct from '../CardsProduct'
-import Footer from '../Footer'
+import CardsProduct from '../Cards/CardsProduct'
+import Footer from '../Footer/Footer'
 
 export default function Destinations () {
     return (

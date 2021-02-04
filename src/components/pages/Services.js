@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
-import ServicesText from '../ServicesText'
-import Footer from '../Footer'
+import ServicesText from '../ServicesText/ServicesText'
+import Footer from '../Footer/Footer'
 
 export default function Services() {
   return (
